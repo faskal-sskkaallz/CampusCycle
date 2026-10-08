@@ -1,0 +1,190 @@
+ body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #ffffff;
+    color: #333;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #007bff; /* Warna biru yang menarik */
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Bagian Produk */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.product-image {
+    width: 100%;
+    height: 300px; /* Tinggi standar untuk gambar */
+    object-fit: cover; /* Memastikan gambar mengisi area tanpa merusak rasio aspek */
+    background-color: #eee; /* Warna latar belakang saat belum ada gambar */
+}
+
+.product-info {
+    padding: 15px;
+}
+
+.product-info h3 {
+    margin-top: 0;
+    font-size: 1.4em;
+    color: #555;
+}
+
+.product-price {
+    color: #e67e22; /* Warna oranye untuk harga */
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+ bodylogin {
+                /* ============================================= */
+                /* 🌟 EYE-CATCHING STYLES (Upgrade Modern) 🌟 */
+                /* ============================================= */
+
+                /* 1. Reset dan Background Utama */
+        
+                font-family: 'Poppins', 'Helvetica Neue
+                background-color: #f4a4a4a; /* Warna latar belakang gelap khas e-commerce */
+                background-image: url(Keramaian\ Toko.jpg); /*untuk mengganti bakcgorund*/
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 10; /* Penting untuk layout flexbox */
+                margin: 0;
+            }
+
+            .login-container {
+                background-color: #ffffff;
+                background-image: url(); /*untuk mengganti bakcgorund*/
+                padding: 40px 50px;
+                border-radius: 10px;
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+                width: 100%;
+                max-width: 400px;
+            }
+
+            .logo {
+                text-align: center;
+                margin-bottom: 30px;
+            }
+
+            .logo h2 {
+                color: #333;
+                margin: 0;
+                font-size: 1.8em;
+            }
+
+            .login-form label {
+                display: block;
+                margin-bottom: 8px;
+                font-weight: bold;
+            }
+
+            .login-form input[type="email"],
+            .login-form input[type="password"] {
+                width: 100%; /* Awalnya diset ke 10% agar responsif */
+                padding: 120px;
+                margin-bottom: 20;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                box-sizing: border-box; /* Penting agar padding tidak menambah lebar total */
+            }
+
+            .login-form input[type="email"]:focus,
+            .login-form input[type="password"]:focus {
+                border-color: #0007bff;
+                outline: none;
+            }
+
+            button {
+                width: 100%;
+                padding: 12px;
+                background-color: #007bff;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 1.1em;
+                margin-top: 20px;
+                transition: background-color 0.3s;
+            }
+
+            button:hover {
+                background-color: #000066;
+            }
+
+            .footer-text {
+                text-align: center;
+                margin-top: 20px;
+                font-size: 0.9em;
+            }
+
+            .footer-text a {
+                color: #0007bff;
+                text-decoration: none;
+            }
